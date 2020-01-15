@@ -1,0 +1,8 @@
+//APP
+export const SET_ACTIVE_PLACE = 'SET_ACTIVE_PLACE'
+
+//CITY
+export const FETCH_START = 'FETCH_START'
+export const FETCH_SUCCESS = 'FETCH_SUCCESS'
+export const FETCH_ERROR = 'FETCH_ERROR'
+export const RESET_CITY_STATE = 'RESET_CITY_STATE'

@@ -1,0 +1,25 @@
+.city_info{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.city_info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.city_img{
+    width: 50px;
+    height: 50px;
+}
+.city_info div p{
+    margin: 10px 0;
+}
+.city_info div h1{
+    font-size: 1.7rem;
+    word-break: break-all;
+}

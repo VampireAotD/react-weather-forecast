@@ -1,0 +1,33 @@
+.city{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.city:hover{
+    box-shadow: 0 0 5px black;
+    background: white;
+    color: black;
+}
+.city span{
+    font-weight: bold;
+}
+.search-input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #d8d8d8;
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 546px){
+    .cities_h1{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
